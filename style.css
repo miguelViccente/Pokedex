@@ -9,15 +9,20 @@ body {
   }
   
   .container {
-  
-    background-color: white;
+    color: white;
+    border: 4px;
+    border-color: black;
+    background-color: red;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     width: 300px;
   
   }
-  
+  .tela {
+    background-color: lightblue;
+    border-radius: 15px;
+  }
   input {
   
     padding: 10px;
@@ -30,6 +35,9 @@ body {
   
     padding: 10px 15px;
     cursor: pointer;
+    border-radius: 4px;
+    background-color: red;
+    color: white; 
   
   }
   
